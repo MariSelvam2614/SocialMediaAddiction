@@ -1,0 +1,75 @@
+{
+  "name": "SMA Predict — Social Media Addiction Predictor",
+  "short_name": "SMA Predict",
+  "description": "ML-powered social media addiction risk assessment with personalised recommendations",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07090f",
+  "theme_color": "#3b8aff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["health", "lifestyle", "education"],
+  "icons": [
+    {
+      "src": "static/icons/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "static/icons/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "static/icons/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "static/icons/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "static/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "static/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "static/screenshots/home.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "SMA Predict Home"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Take Assessment",
+      "short_name": "Assess",
+      "description": "Start your addiction risk assessment",
+      "url": "/?tab=assess",
+      "icons": [{ "src": "static/icons/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "View History",
+      "short_name": "History",
+      "description": "View your past assessments",
+      "url": "/?tab=history",
+      "icons": [{ "src": "static/icons/icon-96.png", "sizes": "96x96" }]
+    }
+  ]
+}

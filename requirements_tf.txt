@@ -1,0 +1,16 @@
+# -------------------------
+# Deep Learning (TensorFlow)
+# -------------------------
+tensorflow==2.13.*
+
+# -------------------------
+# Numeric stack (TF compatible)
+# -------------------------
+numpy>=1.22,<1.25
+typing-extensions>=4.4,<4.6
+
+# -------------------------
+# Utilities (if needed)
+# -------------------------
+pandas>=2.0
+joblib>=1.3
